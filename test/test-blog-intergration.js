@@ -13,6 +13,7 @@ const {TEST_DATABASE_URL} = require('../config')
 
 chai.use(chaiHttp);
 
+
 function seedBlogPostData() {
     console.info('seeding blogpost data');
     const seedData = [];
